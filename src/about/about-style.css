@@ -1,0 +1,11 @@
+
+
+#about-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem
+}
+
+iframe {
+    border-radius: 1rem;
+}

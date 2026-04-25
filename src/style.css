@@ -70,8 +70,11 @@ header img {
     align-items: center;
     border-radius: 2rem;
     height: 50%;
-    width: 50%;
+    width: 80%;
     color: white;
-    font-size: 50px;
     background-color: rgba(0, 0, 0, 0.5);
-} 
+}
+
+.container > p {
+    font-size: 50px;
+}

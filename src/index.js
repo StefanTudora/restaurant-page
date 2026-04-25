@@ -5,14 +5,8 @@ import {getHomeContent} from "./home/home.js"
 import {getMenuContent} from "./menu/menu.js"
 import {getAboutContent} from "./about/about.js"
 
-
 import "./style.css";
 
-console.log("Hello, there!");
-
-/*
- *  Add the image to the header
- */
 function addBarberLogo() {
     // Get the header holding the buttons
     const headerElem = document.querySelector("header");
