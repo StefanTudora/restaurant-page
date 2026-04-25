@@ -7,7 +7,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-body > img {
+body > #background-img {
     position: absolute;
     top: 0;
     left: 0;
@@ -63,7 +63,7 @@ header img {
     width: 100vw;
 }
 
-#welcome {
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
