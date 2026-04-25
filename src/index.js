@@ -20,11 +20,12 @@ function addBarberLogo() {
 }
 
 function addBackground() {
-    const contentPage = document.querySelectorAll("content");
-    contentPage.forEach(node => {
-        const backgroundElem = document.createElement("img");
-        backgroundElem.src = barberBackground;
-    });
+    const contentPage = document.querySelector("body");
+    const backgroundElem = document.createElement("img");
+    backgroundElem.src = barberBackground;
+    backgroundElem.id = "background-img";
+    contentPage.appendChild(backgroundElem);
 }
 
 addBarberLogo();
+addBackground();
