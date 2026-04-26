@@ -1,9 +1,19 @@
 
+#about-container {
+    height: 55%;
+}
+
+#address-container > p {
+    font-size: 1.5rem;
+}
 
 #about-grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 5rem
+}
+
+#address-container > p:first-child {
+    font-weight: bold;
 }
 
 iframe {

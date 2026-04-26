@@ -10,11 +10,22 @@ import "./style.css";
 function addBarberLogo() {
     // Get the header holding the buttons
     const headerElem = document.querySelector("header");
+
+    const logoContent = document.createElement("div");
+    logoContent.id = "logo-content"
+
     // Create the element holding the image
     const barberLogo = document.createElement("img");
     barberLogo.src = barberLogoSource;
+
+    const barberLogoName = document.createElement("p");
+    barberLogoName.textContent = "Cuts & Cracks";
+
+    logoContent.appendChild(barberLogo);
+    logoContent.appendChild(barberLogoName);
+
     // Append in front the navbar
-    headerElem.prepend(barberLogo);
+    headerElem.prepend(logoContent);
 }
 
 function addBackground() {
