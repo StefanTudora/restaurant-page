@@ -1,3 +1,23 @@
 #menu-container {
-    
+    height: auto;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item > img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+
+#grid-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
 }
